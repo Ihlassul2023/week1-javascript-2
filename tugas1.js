@@ -2,7 +2,7 @@
 // contoh penggunaannya(kecuali : split, reverse, join, foreach, map)
 
 /*
-filter(): Membuat array baru dengan elemen-elemen yang memenuhi kondisi yang ditentukan dalam fungsi callback. Mengembalikan elemen-elemen yang lulus tes kondisi.
+filter(): Membuat array baru dengan elemen-elemen yang memenuhi kondisi yang ditentukan dalam fungsi callback. Mengembalikan elemen-elemen yang kondisiny true.
 
 find(): Mengembalikan nilai dari elemen pertama dalam array yang memenuhi kondisi yang ditentukan dalam fungsi callback. Jika tidak ditemukan, mengembalikan undefined.
 
@@ -23,3 +23,7 @@ push(): Menambahkan satu atau lebih elemen ke akhir array dan mengembalikan panj
 pop(): Menghapus dan mengembalikan elemen terakhir dari array.
  */
 //contoh penggunaan
+
+let arr = [1, 2, 3, 4, 5];
+let arr2 = arr.slice(0, 3);
+console.log(arr2);
