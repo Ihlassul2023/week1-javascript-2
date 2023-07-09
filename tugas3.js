@@ -5,10 +5,7 @@ const SeleksiNilai = (nilaiAwal, nilaiAkhir, dataArray) => {
     return "Jumlah angka dalam dataArray harus lebih dari 5";
   } else {
     hasil = dataArray.filter((element) => element > nilaiAwal && element < nilaiAkhir);
-    if (hasil.length == 0) {
-      return "Nilai tidak ditemukan";
-    }
-    return hasil.sort((a, b) => a - b);
+    return hasil.length == 0 ? "Nilai tidak ditemukan" : hasil.sort((a, b) => a - b);
   }
 };
 
