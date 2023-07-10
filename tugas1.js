@@ -2,11 +2,11 @@
 // contoh penggunaannya(kecuali : split, reverse, join, foreach, map)
 
 /*
-filter(): Membuat array baru dengan elemen-elemen yang memenuhi kondisi yang ditentukan dalam fungsi callback. Mengembalikan elemen-elemen yang kondisiny true.
+1.filter(): Membuat array baru dengan elemen-elemen yang memenuhi kondisi yang ditentukan dalam fungsi callback. Mengembalikan elemen-elemen yang kondisiny true.
 
-find(): Mengembalikan nilai dari elemen pertama dalam array yang memenuhi kondisi yang ditentukan dalam fungsi callback. Jika tidak ditemukan, mengembalikan undefined.
+2.find(): Mengembalikan nilai dari elemen pertama dalam array yang memenuhi kondisi yang ditentukan dalam fungsi callback. Jika tidak ditemukan, mengembalikan undefined.
 
-slice(): Mengembalikan sebagian dari array sebagai array baru, mulai dari indeks yang ditentukan hingga indeks sebelumnya. Tidak mempengaruhi array asli.
+3.slice(): Mengembalikan sebagian dari array sebagai array baru, mulai dari indeks yang ditentukan hingga indeks sebelumnya. Tidak mempengaruhi array asli.
 
 reduce(): Mengurangi elemen-elemen array menjadi satu nilai tunggal dengan menggunakan fungsi callback yang diterapkan pada setiap elemen array. Menerima argumen fungsi callback dan nilai awal sebagai parameter.
 
